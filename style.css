@@ -1,0 +1,47 @@
+:root {
+    --green: #red;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.class-section-image {
+    width: 24rem;
+    height: 20rem;
+    margin: 3rem auto;
+    padding: 1rem;
+}
+
+.class-section-image figure {
+    width: 12rem;
+    height: 20rem;
+    margin: 40% auto;
+    padding: 1rem;
+    border: 2px solid black;
+}
+
+.class-section-image figure div {
+    display: flex;
+    padding: 0.5rem;
+}
+
+ul a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 700;
+}
+
+ul li {
+    margin-block: 1rem;
+    list-style-type: none;
+}
+
+.class-section-image img {
+    width: 250px;
+    height: 200px;
+    margin: 1rem;
+    display: inline;
+}
