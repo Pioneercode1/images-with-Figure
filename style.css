@@ -11,12 +11,15 @@ body {
     justify-content: center;
     align-items: center;
     min-width: 39rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
     .class-section-image {
         width: 28rem;
         height: 23rem;
-        margin: 6rem auto;
     }
 
     .class-section-image figure {
